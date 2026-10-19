@@ -1,6 +1,6 @@
 # Contributing
 
-Thanks for helping improve DocuMind Learn.
+Thanks for helping improve Learnly.
 
 ## Before starting
 - Read the README and relevant documentation.

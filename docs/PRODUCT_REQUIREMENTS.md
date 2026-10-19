@@ -1,17 +1,17 @@
 # Product Requirements Document (PRD)
 
-- **Product:** DocuMind Learn
+- **Product:** Learnly
 - **Document status:** Draft
 - **Version:** 0.1
 - **Last reviewed:** 2026-10-18
 
 ## 1. Summary
 
-DocuMind Learn is an AI-assisted study tool that helps learners understand lecture notes and educational documents. Users provide a PDF or select a section; the product explains it in plain language, defines terminology, supplies examples, and creates practice questions. AI-generated answers should cite source pages or passages whenever the source supports the answer.
+Learnly is an AI-assisted study tool that helps learners understand lecture notes and educational documents. Users provide a PDF or select a section; the product explains it in plain language, defines terminology, supplies examples, and creates practice questions. AI-generated answers should cite source pages or passages whenever the source supports the answer.
 
 ## 2. Problem statement
 
-Lecture materials can be dense, jargon-heavy, or written for learners who already know the basics. Students often need to switch between the original lecture, a search engine, a glossary, and a quiz tool. DocuMind Learn aims to put these learning actions into one workflow while preserving links to the source.
+Lecture materials can be dense, jargon-heavy, or written for learners who already know the basics. Students often need to switch between the original lecture, a search engine, a glossary, and a quiz tool. Learnly aims to put these learning actions into one workflow while preserving links to the source.
 
 ## 3. Target users
 
