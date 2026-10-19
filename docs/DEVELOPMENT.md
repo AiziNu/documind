@@ -27,8 +27,8 @@ On some systems the Python command is `python3` rather than `python`.
 After creating the GitHub repository:
 
 ```bash
-git clone https://github.com/<your-username>/documind-learn.git
-cd documind-learn
+git clone https://github.com/<your-username>/documind.git
+cd documind
 ```
 
 Replace `<your-username>` with your GitHub username.

@@ -1,8 +1,8 @@
-# DocuMind Learn
+# Learnly
 
 **AI-powered learning assistant for lectures, PDFs, and technical study material.**
 
-DocuMind Learn helps learners understand difficult material by transforming uploaded documents into beginner-friendly explanations, glossaries, examples, summaries, and practice quizzes. Answers should remain grounded in the source material and link back to relevant pages or passages.
+Learnly helps learners understand difficult material by transforming uploaded documents into beginner-friendly explanations, glossaries, examples, summaries, and practice quizzes. Answers should remain grounded in the source material and link back to relevant pages or passages.
 
 > **Status:** Planning / initial scaffold  
 > **Version:** 0.1.0  
@@ -48,7 +48,7 @@ Authentication, multiple workspaces, OCR, background jobs, billing, and advanced
 ## Repository layout (target)
 
 ```text
-documind-learn/
+learnly/
 ├── frontend/                 # React + TypeScript + Vite
 ├── backend/                  # Python + FastAPI
 ├── docs/

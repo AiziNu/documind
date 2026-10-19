@@ -1,5 +1,5 @@
 function LogoMark() {
-  return <span className="logo-mark" aria-hidden="true">d</span>
+  return <span className="logo-mark" aria-hidden="true">l</span>
 }
 
 function Icon({ name }: { name: 'book' | 'bulb' | 'link' | 'file' | 'sparkles' | 'notes' }) {
@@ -27,7 +27,7 @@ function ProductPreview() {
     </div>
     <div className="flow-arrow" aria-hidden="true">↘</div>
     <div className="tutor-card">
-      <div className="tutor-head"><span className="mini-logo">d</span><strong>DocuMind Learn</strong></div>
+      <div className="tutor-head"><span className="mini-logo">l</span><strong>Learnly</strong></div>
       <div className="question">Can you explain this concept in simpler terms?</div>
       <h4>Here’s a clearer explanation</h4>
       <p>In simpler terms, gradient descent is a method for finding the best values for a model by gradually reducing the error.</p>
@@ -41,7 +41,7 @@ function ProductPreview() {
 export default function App() {
   return <main>
     <header className="site-header">
-      <a className="brand" href="#home" aria-label="DocuMind Learn home"><LogoMark/><span>documind <i>learn</i></span></a>
+      <a className="brand" href="#home" aria-label="Learnly home"><LogoMark/><span>learnly</span></a>
       <nav aria-label="Main navigation"><a href="#how-it-works">How it works</a><a href="#benefits">Benefits</a><a href="#approach">Our approach</a><a href="#about">About</a></nav>
       <a className="header-cta" href="#how-it-works">See how it works <span>↗</span></a>
     </header>
@@ -58,7 +58,7 @@ export default function App() {
     </section>
 
     <section className="benefits section" id="benefits">
-      <div className="section-intro"><span className="section-kicker">WHY DOCUMIND LEARN</span><h2>Study smarter, not harder.</h2><p>Turn your existing study material into real understanding — with clear explanations,<br className="desktop-break"/> practical examples, and trusted sources.</p></div>
+      <div className="section-intro"><span className="section-kicker">WHY LEARNLY</span><h2>Study smarter, not harder.</h2><p>Turn your existing study material into real understanding — with clear explanations,<br className="desktop-break"/> practical examples, and trusted sources.</p></div>
       <div className="benefit-grid">
         <article className="benefit-card"><span className="benefit-icon purple"><Icon name="book" /></span><h3>Understand difficult concepts</h3><p>Get explanations in simple, student-friendly language.</p></article>
         <article className="benefit-card"><span className="benefit-icon amber"><Icon name="bulb" /></span><h3>Learn with examples</h3><p>See real-world examples that connect theory to practice.</p></article>
@@ -78,11 +78,11 @@ export default function App() {
     </section>
 
     <section className="audience-section" id="approach">
-      <div className="audience-copy"><span className="section-kicker">BUILT FOR STUDENTS</span><h2>A better way to learn<br/>from <em>your own notes.</em></h2><p>DocuMind Learn helps you turn dense lecture notes into clear, structured explanations — so you can focus on understanding, not just memorising.</p><a className="primary-button" href="#how-it-works">See how it works <span>↗</span></a></div>
+      <div className="audience-copy"><span className="section-kicker">BUILT FOR STUDENTS</span><h2>A better way to learn<br/>from <em>your own notes.</em></h2><p>Learnly helps you turn dense lecture notes into clear, structured explanations — so you can focus on understanding, not just memorising.</p><a className="primary-button" href="#how-it-works">See how it works <span>↗</span></a></div>
       <ul className="check-list"><li><span>✓</span> Works with your existing lecture PDFs</li><li><span>✓</span> Clear, easy-to-follow explanations</li><li><span>✓</span> Practical examples and summaries</li><li><span>✓</span> Cited sources from your documents</li><li><span>✓</span> Designed for curious minds and lifelong learners</li></ul>
     </section>
 
-    <section className="closing" id="about"><div className="closing-mark">✳</div><span className="section-kicker">DOCUMIND LEARN</span><h2>Understand more.<br/><em>Stress a little less.</em></h2><p>A calmer, more personal way to learn from the material you already have.</p><a className="text-link" href="#home">Back to the beginning ↑</a></section>
-    <footer className="site-footer"><a className="brand footer-brand" href="#home"><LogoMark/><span>documind <i>learn</i></span></a><span>Made for the joy of understanding.</span><span>© {new Date().getFullYear()} DocuMind Learn</span></footer>
+    <section className="closing" id="about"><div className="closing-mark">✳</div><span className="section-kicker">LEARNLY</span><h2>Understand more.<br/><em>Stress a little less.</em></h2><p>A calmer, more personal way to learn from the material you already have.</p><a className="text-link" href="#home">Back to the beginning ↑</a></section>
+    <footer className="site-footer"><a className="brand footer-brand" href="#home"><LogoMark/><span>learnly</span></a><span>Made for the joy of understanding.</span><span>© {new Date().getFullYear()} Learnly</span></footer>
   </main>
 }
